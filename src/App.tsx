@@ -2,11 +2,13 @@ import React from 'react';
 import logo from './logo.svg';
 import { Counter } from './features/counter/Counter';
 import './App.css';
+import RenderDipsplay from './features/display/RenderDipsplay'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <RenderDipsplay/>
         <img src={logo} className="App-logo" alt="logo" />
         <Counter />
         <p>
